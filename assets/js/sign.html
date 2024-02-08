@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+  <link rel="stylesheet" href="project/project.css">
+  
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <div class="header-search">
+        <input type="search" name="search" placeholder="Search Product..." class="input-field">
+
+        <button class="search-btn" aria-label="Search">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+      <a href="#" class="logo ">
+       <h2 class="" >MST Shopping Center</h2>
+      </a>
+
+      <div class="header-actions">
+
+        <button class="header-action-btn">
+          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+          <a href="project/project.html" target="_blank" class="header-action-label">Sign in</a>
+        </button>
+
+        <button class="header-action-btn">
+          
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">Search</p>
+        </button>
+
+        <button class="header-action-btn">
+          <ion-icon name="cart-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">Cart</p>
+
+          <div class="btn-badge green" aria-hidden="true">3</div>
+        </button>
+
+        <button class="header-action-btn">
+          <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">Wishlisht</p>
+
+          <div class="btn-badge" aria-hidden="true">2</div>
+        </button>
+
+      </div>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" alt="Casmart logo" width="130" height="31">
+          </a>
+
+          <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Shop</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+  
+  
+    <div class="hero min-h-screen bg-base-200">
+        <div class="hero-content flex-col ">
+          <div class="text-center lg:text-left">
+            <h1 class="text-5xl font-bold  mb-8">Login now!</h1>
+          </div>
+          <div class="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+            <form class="card-body">
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Email</span>
+                </label>
+                <input type="email" placeholder="email" class="input input-bordered" required />
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Password</span>
+                </label>
+                <input type="password" placeholder="password" class="input input-bordered" required />
+                <label class="label">
+                  <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                </label>
+              </div>
+              <div class="form-control mt-6">
+                <button class="btn btn-primary"><a href="casmart/index.html">Login</a></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
